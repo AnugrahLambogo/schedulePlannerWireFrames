@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <section class="navBar">
+        <h1 id="appTitle">Schedule Planner!</h1>
+        <div id="navigation">nav</div>
+    </section>
+
+    <form class="newEventForm">
+        <h2>Create New Event</h2>
+        <div class="eventName">
+            <label for="eventName">Event Name</label>
+            <input id="eventName" />
+        </div>
+
+        <div class="description">
+            <label for="description">Description</label>
+            <textarea id="description"></textarea>
+        </div>
+
+        <div class="guestList">
+            <label for="guestList">Add guests</label>
+            <input id="guestList" />
+            <p> Sending invite to: lambogoai@gmail.com, friend@yahoo.com, enemy@outlook.com </p>
+        </div>
+        <div class="availableRange">
+            <label>Available Range</label>
+            <div class="useCalendarOption">
+                <input type="checkbox" id="useCalendar"> Use my calendar availability
+            </div>
+            <div class="dayAvail">
+                <label>Monday</label> From <select id="mondayStart">
+                    <option>6pm</option>
+                    <option>7pm</option>
+                    <option>8pm</option>
+                    <option>9pm</option>
+                    <option>10pm</option>
+                    <option>11pm</option>
+                </select>
+                To <select id="mondayEnd">
+                    <option>6pm</option>
+                    <option>7pm</option>
+                    <option>8pm</option>
+                    <option>9pm</option>
+                    <option>10pm</option>
+                    <option>11pm</option>
+                </select>
+            </div>
+            <div class="dayAvail">
+                <label>Tuesday</label> From <select id="tuesdayStart">
+                    <option>6pm</option>
+                    <option>7pm</option>
+                    <option>8pm</option>
+                    <option>9pm</option>
+                    <option>10pm</option>
+                    <option>11pm</option>
+                </select>
+                To <select id="tuesdayEnd">
+                    <option>6pm</option>
+                    <option>7pm</option>
+                    <option>8pm</option>
+                    <option>9pm</option>
+                    <option>10pm</option>
+                    <option>11pm</option>
+                </select>
+            </div>
+            <div class="dayAvail">
+                <label>Wednesday</label> From <select id="wednesdayStart">
+                    <option>6pm</option>
+                    <option>7pm</option>
+                    <option>8pm</option>
+                    <option>9pm</option>
+                    <option>10pm</option>
+                    <option>11pm</option>
+                </select>
+                To <select id="wednesdayEnd">
+                    <option>6pm</option>
+                    <option>7pm</option>
+                    <option>8pm</option>
+                    <option>9pm</option>
+                    <option>10pm</option>
+                    <option>11pm</option>
+                </select>
+            </div>
+            <div class="dayAvail">
+                <label>Thursday</label> From <select id="thursdayStart">
+                    <option>6pm</option>
+                    <option>7pm</option>
+                    <option>8pm</option>
+                    <option>9pm</option>
+                    <option>10pm</option>
+                    <option>11pm</option>
+                </select>
+                To <select id="thursdayEnd">
+                    <option>6pm</option>
+                    <option>7pm</option>
+                    <option>8pm</option>
+                    <option>9pm</option>
+                    <option>10pm</option>
+                    <option>11pm</option>
+                </select>
+            </div>
+            <div class="dayAvail">
+                <label>Friday</label> From <select id="fridayStart">
+                    <option>6pm</option>
+                    <option>7pm</option>
+                    <option>8pm</option>
+                    <option>9pm</option>
+                    <option>10pm</option>
+                    <option>11pm</option>
+                </select>
+                To <select id="fridayEnd">
+                    <option>6pm</option>
+                    <option>7pm</option>
+                    <option>8pm</option>
+                    <option>9pm</option>
+                    <option>10pm</option>
+                    <option>11pm</option>
+                </select>
+            </div>
+            <div class="dayAvail">
+                <label>Saturday</label> From <select id="saturdayStart">
+                    <option>6pm</option>
+                    <option>7pm</option>
+                    <option>8pm</option>
+                    <option>9pm</option>
+                    <option>10pm</option>
+                    <option>11pm</option>
+                </select>
+                To <select id="saturdayEnd">
+                    <option>6pm</option>
+                    <option>7pm</option>
+                    <option>8pm</option>
+                    <option>9pm</option>
+                    <option>10pm</option>
+                    <option>11pm</option>
+                </select>
+            </div>
+            <div class="dayAvail">
+                <label>Sunday</label> From <select id="sundayStart">
+                    <option>6pm</option>
+                    <option>7pm</option>
+                    <option>8pm</option>
+                    <option>9pm</option>
+                    <option>10pm</option>
+                    <option>11pm</option>
+                </select>
+                To <select id="sundayEnd">
+                    <option>6pm</option>
+                    <option>7pm</option>
+                    <option>8pm</option>
+                    <option>9pm</option>
+                    <option>10pm</option>
+                    <option>11pm</option>
+                </select>
+            </div>
+        </div>
+
+        <button>Send Invite!</button>
+    </form>
+</body>
+
+</html>

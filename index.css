@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+
+}
+
+.calendarDay {
+    background;
+    overflow-x: scroll;
+    width: 80%px;
+    height: 100px;
+}
+
+.calendarHours {
+    background: lightblue;
+    width: 1700px;
+}
+
+.eventHour {
+    background: white;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border: 1px black solid;
+    margin: 0;
+}
+
+.hourName {
+    display: inline;
+}
+
+.eventName {
+    padding: 0;
+    margin: 0;
+}
+
+#busy {
+    background: grey;
+}
+
+#description {
+    height: 100px;
+    
+}
+
+#eventName, #description, #guestList {
+    width: 300px;
+    margin-top: 10px;
+}
